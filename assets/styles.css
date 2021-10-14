@@ -1,0 +1,190 @@
+
+body{
+    color:rgb(253, 254, 255);
+    font-family:'Trebuchet MS';
+    font-size: 18px;
+}
+header{
+    background: linear-gradient(to right, hsla(340, 92%, 30%, 0.678), hsla(325, 90%, 19%, 0.753)), url(mean.jpg);
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+header .textHeader1{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+header h1{
+    font-size: 50px;
+    text-shadow:rgb(120, 113, 124) 2px 2px 2px;
+}
+header h2{
+    font-size: 25px;
+    font-family:'Open sans'cursive;
+    font-weight: 300;
+}
+nav{
+    text-align: right;
+    font-size: 10px;
+    text-decoration: none;
+    padding: 30px 50px 0px 0;
+}
+nav li{
+    display: inline-block;
+    margin-top: 10px;
+    text-align: right;
+}
+nav li a{
+    color: aliceblue;
+    display:inline-block;
+    font-size: 14px;
+    font-family: open sans;
+    width: 100px;
+}
+.conNuestroProducto {
+    padding: 30px;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    display: block;
+}
+.contenedor1{
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    margin: 40px;
+    padding: 60px;
+}
+.titulo{
+    text-align: center;
+    color: rgba(88, 8, 92, 0.808);
+    font-weight: bold;
+    font-size: 40px;
+    padding: 20px;
+    margin-bottom: 60px;
+}
+.imagen2 {
+    margin:10px;
+    padding: 20px;
+    width: 1000px;
+    height: 400px;
+    box-sizing: border-box;
+    text-align: justify;
+}
+.containerText{
+    color: black;
+    font-size: 14px;
+    font-family: open sans;
+    text-align: justify;
+    margin:0;
+}
+.containerH2{
+    text-align: center;
+    color: rgba(88, 8, 92, 0.808);
+    font-weight: bold;
+    font-size: 40px;
+}   
+.container-portafolio{
+    display:flex;
+    flex-direction: row;
+}
+.containerPort > div{
+    display: inline-flex;
+    max-width: 100%;
+    margin-inline: 25%;
+}
+#row1{
+    display:flex;
+}
+#row2{
+    display:flex;
+}
+.estudiantes.contenedor{
+    padding: 60px 30px;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.cartas{
+    display:flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.carta{
+    display: inline-block;
+    background: #4d0686;
+    display: flex;
+    width: 76%;
+    height: 200px;
+    align-items: center;
+    text-align: justify;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 60%);
+}
+.carta-rostro1{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 2px;
+    border-radius: 70%;
+    display: block;
+}
+.carta-rostro2{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 2px;
+    border-radius: 70%;
+    display: block;
+}
+.contenido-texto-carta{
+    width: 70%;
+}
+.servicio-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    margin: 160px;
+}
+.servicio-name{
+    width: 40%;
+    text-align:center;
+}
+.name{
+    text-align: center;
+}
+footer{
+    display: inline-block;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding-bottom: 50px;
+    background-color: brown;
+    text-align: center;
+}
+.foo{
+    display:inline-block;
+    margin: 30px;
+    text-align: center;
+}
+footer h2{
+    text-align: center;
+    text-shadow:rgb(82, 75, 18) 6px 6px 6px;
+}
+nav ul{
+    background-color: white;
+}
+.final{
+    text-align: center;
+}
